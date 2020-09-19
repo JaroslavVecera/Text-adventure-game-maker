@@ -1,0 +1,2 @@
+story node:	{id;story{{choice{var;value}{var;value}}}
+condition node:	{id{{var;value}}{id;id}}

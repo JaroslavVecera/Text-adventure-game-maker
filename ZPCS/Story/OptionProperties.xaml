@@ -1,0 +1,28 @@
+﻿<TabItem x:Class="TextGameEditor.Story.OptionProperties"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TextGameEditor.Story"
+             mc:Ignorable="d">
+    <StackPanel>
+        <Label Content="Option" Foreground="Black"/>
+        <TextBox  PreviewTextInput="PreviewOptionText" x:Name="option" TextWrapping="Wrap" Height="50" TextChanged="ChangeText" ></TextBox>
+
+        <StackPanel>
+            <Label Content="Condition:" HorizontalAlignment="Left"/>
+            <TextBox PreviewKeyDown="PreviewLabelKeyDown" CommandManager.PreviewExecuted="PreviewExecuted" PreviewTextInput="PreviewInputVariableText" x:Name="inputVariable" TextChanged="ChangeInputVariableName"></TextBox>
+            <RadioButton x:Name="inputVariableButton1" Checked="ChangeInputVariableState" Content="if true" IsEnabled="False" Foreground="#2f4f4f"/>
+            <RadioButton x:Name="inputVariableButton2" Checked="ChangeInputVariableState" Content="if false" IsEnabled="False" Foreground="#2f4f4f"/>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="Set variable:" HorizontalAlignment="Left"/>
+            <TextBox PreviewKeyDown="PreviewLabelKeyDown" CommandManager.PreviewExecuted="PreviewExecuted" PreviewTextInput="PreviewOutputVariableText" x:Name="outputVariable" TextChanged="ChangeOutputVariableName"></TextBox>
+            <RadioButton x:Name="outputVariableButton1" Checked="ChangeOutputVariableState" Content="True" IsEnabled="False" Foreground="#2f4f4f"/>
+            <RadioButton x:Name="outputVariableButton2" Checked="ChangeOutputVariableState" Content="False" IsEnabled="False" Foreground="#2f4f4f"/>
+        </StackPanel>
+
+        <Button Background="DarkRed" Margin="0, 20, 0, 0" Click="RemoveOption" Foreground="White">Remove option</Button>
+        <Button x:Name="connectionButton" Click="SetConnection">Connect</Button>
+    </StackPanel>
+    </TabItem>

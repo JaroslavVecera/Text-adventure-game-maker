@@ -1,0 +1,16 @@
+﻿<Grid x:Class="TextGameEditor.Story.ExtractBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TextGameEditor.Story"
+             mc:Ignorable="d">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="110"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="130"/>
+    </Grid.ColumnDefinitions>
+    <Label Grid.Column="0" x:Name="inputVariable">-</Label>
+    <Label Grid.Column="1" x:Name="text"></Label>
+    <Label Grid.Column="2" x:Name="outputVariable">-</Label>
+</Grid>

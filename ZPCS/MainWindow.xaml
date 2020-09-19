@@ -1,0 +1,70 @@
+﻿<Window x:Class="TextGameEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextGameEditor"
+        mc:Ignorable="d"
+        Title="Text game editor" Height="694.933" Width="950.728"
+        Icon="icons/icon.png">
+    <Grid x:Name="grid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1" Background="#3D3D40">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="150" />
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="propertyFormPlace" Grid.Column="2" Panel.ZIndex="1" Background="#3D3D40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="8*"/>
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" Background="Black"/>
+            <Canvas x:Name="canvas"  Background="DarkGray" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Panel.ZIndex="-1">
+                <Thumb DragDelta="DragDelta" DragCompleted="DragCompleted" Opacity="0"
+                               Width="{Binding ActualWidth, ElementName=canvas}"
+                               Height="{Binding ActualHeight, ElementName=canvas}"></Thumb>
+            </Canvas>
+        </Grid>
+        <DockPanel RenderTransformOrigin="0.485,0.667" Background="#5D5D5D" Grid.ColumnSpan="2">
+            <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="37" Width="40"
+                    Click="CreateStoryNode" Background="Transparent" BorderThickness="0"
+                    ToolTipService.ShowDuration="2000" ToolTip="Story node">
+                <Image Source="icons/sn.png" RenderTransformOrigin="1.556,0.778" Width="30" />
+            </Button>
+            <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="37" Width="40" Click="CreateConditionNode"
+                    Background="Transparent" BorderThickness="0" ToolTipService.ShowDuration="2000" ToolTip="Condition node">
+                <Image Source="icons/cn.png" RenderTransformOrigin="1.556,0.778" Width="30"/>
+            </Button>
+            <Button VerticalAlignment="Top" Height="37" Width="40" Click="Export" Background="Transparent"
+                    BorderThickness="0" ToolTipService.ShowDuration="2000" ToolTip="Export">
+                <Image Source="icons/exp.png" RenderTransformOrigin="1.556,0.778" Width="30" />
+            </Button>
+            <Button VerticalAlignment="Top" Height="37" Width="40" Click="DeleteAll" Background="Transparent"
+                    BorderThickness="0" ToolTipService.ShowDuration="2000" ToolTip="Delete all">
+                <Image Source="icons/bin.png" RenderTransformOrigin="1.556,0.778" Width="30" />
+            </Button>
+            <Menu Width="62" Height="25" DockPanel.Dock="Right" >
+                <MenuItem Header="_Settings"  BorderBrush="SlateGray" Background="LightGray" Height="25" Width="62">
+                    <MenuItem Header="_Compiler" Click="SetCompilerEvent"/>
+                    <MenuItem Header="_Target file" Click="SetTGBFileNameEvent"/>
+                </MenuItem>
+            </Menu>
+            <Button HorizontalAlignment="Center" DockPanel.Dock="Top" VerticalAlignment="Top" Height="37" Width="80" Click="Compile" Background="Transparent" BorderThickness="0">
+                <DockPanel>
+                    <Image Source="icons/comp.png" RenderTransformOrigin="1.556,0.778" Width="30" />
+                    <TextBlock Text="Run" VerticalAlignment="Center" FontSize="15"></TextBlock>
+                </DockPanel>
+            </Button>
+        </DockPanel>
+    </Grid>
+</Window>

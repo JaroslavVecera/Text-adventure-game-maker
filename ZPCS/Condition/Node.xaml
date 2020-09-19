@@ -1,0 +1,38 @@
+﻿<Border x:Class="TextGameEditor.Condition.Node"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TextGameEditor.Condition"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" MinWidth="200" MinHeight="210"
+            Width="200" Height="200"
+            InkCanvas.Top="0" InkCanvas.Left="0"
+            BorderBrush="#205090" BorderThickness="5">
+    <Grid x:Name="conditionGrid">
+        <Thumb x:Name="grabThumb" Cursor="Hand" Panel.ZIndex="200" DragDelta="Move"
+               PreviewMouseLeftButtonDown="grabThumb_MouseLeftButtonDown" PreviewMouseLeftButtonUp="grabThumb_MouseLeftButtonUp">
+            <Thumb.Template>
+                <ControlTemplate TargetType="Thumb">
+                    <Rectangle Fill="Transparent"/>
+                </ControlTemplate>
+            </Thumb.Template>
+        </Thumb>
+        <Thumb Panel.ZIndex="201" DragDelta="Resize" x:Name="resizeThumb" Height="10" Width="10" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,-5,-5" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="60"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel x:Name="conditionList" Grid.Column="0" Background="White" />
+            <Grid x:Name="conditionBranches" Grid.Column="1" Background="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label x:Name="trueLabel" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20">true</Label>
+                <Label x:Name="falseLabel" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="1" FontSize="20">false</Label>
+            </Grid>
+        </Grid>
+    </Grid>
+    </Border>

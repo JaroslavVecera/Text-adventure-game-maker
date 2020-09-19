@@ -1,0 +1,93 @@
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\MainWindow.g.cs
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\App.g.cs
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS_MarkupCompile.cache
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS_MarkupCompile.lref
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\bin\Debug\ZPCS.exe.config
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\bin\Debug\ZPCS.exe
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\bin\Debug\ZPCS.pdb
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\MainWindow.baml
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.g.resources
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.exe
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.pdb
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\bin\Debug\ZPCS.exe.config
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\bin\Debug\ZPCS.exe
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\bin\Debug\ZPCS.pdb
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.csprojAssemblyReference.cache
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\MainWindow.g.cs
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\OptionForm.g.cs
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\OptionGrid.g.cs
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\StoryNodePropertyForm.g.cs
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\App.g.cs
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS_MarkupCompile.cache
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS_MarkupCompile.lref
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\MainWindow.baml
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\OptionForm.baml
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\OptionGrid.baml
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\StoryNodePropertyForm.baml
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.g.resources
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.Properties.Resources.resources
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.csproj.GenerateResource.cache
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.csproj.CoreCompileInputs.cache
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.exe
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.pdb
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\bin\Debug\ZPCS.exe.config
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\bin\Debug\ZPCS.exe
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\bin\Debug\ZPCS.pdb
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.csprojAssemblyReference.cache
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ConditionForm.g.cs
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ConditionGrid.g.cs
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ConditionNodePropertyForm.g.cs
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\Node\ConditionNode.g.cs
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\MainWindow.g.cs
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\OptionForm.g.cs
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\OptionGrid.g.cs
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\Node\StoryNode.g.cs
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\StoryNodePropertyForm.g.cs
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\App.g.cs
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS_MarkupCompile.cache
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS_MarkupCompile.lref
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ConditionForm.baml
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ConditionGrid.baml
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ConditionNodePropertyForm.baml
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\Node\ConditionNode.baml
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\MainWindow.baml
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\OptionForm.baml
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\OptionGrid.baml
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\Node\StoryNode.baml
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\StoryNodePropertyForm.baml
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.g.resources
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.Properties.Resources.resources
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.csproj.GenerateResource.cache
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.csproj.CoreCompileInputs.cache
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.exe
+C:\Users\Daniela Křečková\source\repos\ZPCS\ZPCS\obj\Debug\ZPCS.pdb
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ConditionForm.g.cs
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ConditionGrid.g.cs
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ConditionNodePropertyForm.g.cs
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\Node\ConditionNode.g.cs
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\Node\StoryNode.g.cs
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ConditionForm.baml
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ConditionGrid.baml
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\ConditionNodePropertyForm.baml
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\Node\ConditionNode.baml
+C:\Users\veceja06\source\repos\ZPCS\ZPCS\obj\Debug\Node\StoryNode.baml
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Condition\ConditionProperties.g.cs
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Condition\ExtractBox.g.cs
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Condition\Properties.g.cs
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Condition\Node.g.cs
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Story\OptionProperties.g.cs
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Story\ExtractBox.g.cs
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Story\Node.g.cs
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Story\Properties.g.cs
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Condition\ConditionProperties.baml
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Condition\ExtractBox.baml
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Condition\Properties.baml
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Condition\Node.baml
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Story\OptionProperties.baml
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Story\ExtractBox.baml
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Story\Node.baml
+C:\Users\Lenovo\source\repos\ZPCS\ZPCS\obj\Debug\Story\Properties.baml

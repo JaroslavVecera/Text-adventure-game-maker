@@ -1,0 +1,19 @@
+﻿<StackPanel x:Class="TextGameEditor.Story.Properties"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TextGameEditor.Story"
+             mc:Ignorable="d" d:DesignWidth="800" Grid.Column="1" >
+    <StackPanel>
+        <Label Content="Story" HorizontalAlignment="Left" Foreground="White"/>
+        <TextBox PreviewTextInput="PreviewText" x:Name="story" Height="100" TextWrapping="Wrap" TextChanged="ChangeStory"></TextBox>
+
+    </StackPanel>
+    <Label Margin="0, 20, 0, 0" Foreground="White" x:Name="optionLabel">Options</Label>
+    <TabControl x:Name="options" Height="339" Background="DarkGray">
+    </TabControl>
+    <Button Height="21" Background="#329528" Foreground="White" Click="RequestForNewOption">+</Button>
+
+    <Button Content="Remove node" Background="DarkRed" Foreground="White" Height="25" Margin="0,20, 0,0" Click="RemoveNode"/>
+</StackPanel>

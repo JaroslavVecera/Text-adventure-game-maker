@@ -1,0 +1,17 @@
+﻿<TabItem x:Class="TextGameEditor.Condition.ConditionProperties"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TextGameEditor.Condition"
+             mc:Ignorable="d">
+
+    <StackPanel>
+        <Label Content="Condition:" HorizontalAlignment="Left"/>
+            <TextBox CommandManager.PreviewExecuted="PreviewExecuted" PreviewTextInput="PreviewInputVariableText" x:Name="variable" TextChanged="ChangeVariableName" PreviewKeyDown="PreviewLabelKeyDown"></TextBox>
+            <RadioButton x:Name="variableButton1" Checked="ChangeVariableState" Content="if true" IsEnabled="False" Foreground="#2f4f4f"/>
+            <RadioButton x:Name="variableButton2" Checked="ChangeVariableState" Content="if false" IsEnabled="False" Foreground="#2f4f4f"/>
+
+        <Button Background="DarkRed" Margin="0, 20, 0, 0" Click="RemoveCondition" Foreground="White">Remove condition</Button>
+    </StackPanel>
+    </TabItem>
